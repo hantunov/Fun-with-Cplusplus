@@ -1,4 +1,4 @@
-Napraviti klasu Auto sa sljedećim obveznim elementima:
+Napraviti klasu Automobil sa sljedećim obveznim elementima:
 
 •	motor (Motor*)  - private  
 •	niz guma vector<Guma*>  - private    
