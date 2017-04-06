@@ -11,7 +11,7 @@ Klasa Motor ima javne atribute naziv i kubikaža. Klasa guma ima javne atribute 
 U main programu napraviti sljedeće:
 
 1.	Kreirati jedan objekt tipa Motor (m1) i 4 zimske gume.
-2.	Kreirati objekt tipa Auto (a1) i ugraditi mu motor m1 i 4 gume. Objekt a1 kreirati koristeći operator „new“.
+2.	Kreirati objekt tipa Automobil (a1) i ugraditi mu motor m1 i 4 gume. Objekt a1 kreirati koristeći operator „new“.
 3.	Ispisati podatke automobila
 4.	„Pojačati“ motor automobila a1 tako da mu povećate kubikažu
 5.	Pretvoriti gume automobila a1 iz zimskih u ljetne (ili obrnuto, ovisno što ste izabrali)
