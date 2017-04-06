@@ -1,3 +1,5 @@
+Tekst zadatka:
+
 Napraviti klasu Automobil sa sljedećim obveznim elementima:
 
 •	motor (Motor*)  - private  
