@@ -1,13 +1,13 @@
-Napraviti klasu Auto sa sljedećim obveznim poljima:
+Napraviti klasu Auto sa sljedećim obveznim elementima:
 
-•	motor (Motor*)  - privatno polje
-•	niz guma vector<Guma*>
-•	dodati nekoliko drugih jednostavnih polja po vlastitom izboru – min. 2 – primjerice, naziv, boja, broj vrata i sl.
-•	void ugradiMotor(Motor* m) i Motor* izvadiMotor() – funkcije pomoću kojih u Auto ugrađujete motor i vadite motor iz auta
-•	void staviGume(vector<Guma*> gume) i vector<Guma*> skiniGume()
-•	void ispis() – ispisati podatke o automobilu, motoru i gumama
+•	motor (Motor*)  - private  
+•	niz guma vector<Guma*>  - private    
+•	dodati nekoliko drugih jednostavnih atributa po vlastitom izboru – min. 2 – primjerice, naziv, boja, broj vrata i sl.  
+•	void ugradiMotor(Motor* m) i Motor* izvadiMotor() – metode pomoću kojih u Auto ugrađujete motor i vadite motor iz auta  
+•	void staviGume(vector<Guma*> gume) i vector<Guma*> skiniGume()  
+•	void ispis() – ispisati podatke o automobilu, motoru i gumama  
 
-Klasa Motor ima javna polja naziv i kubikaža. Klasa guma ima javna polja id (različit za svaku gumu) gume i tip (ljetne/zimske).
+Klasa Motor ima javne atribute naziv i kubikaža. Klasa guma ima javne atribute id (različit za svaku gumu) gume i tip (ljetne/zimske).
 U main programu napraviti sljedeće:
 
 1.	Kreirati jedan objekt tipa Motor (m1) i 4 zimske gume.
