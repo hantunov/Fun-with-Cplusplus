@@ -24,14 +24,14 @@ vector<Guma*> Automobil::skiniGume()
 
 void Automobil::ispis()
 {
-	cout << "Podaci o automobilu:\n\n"
+	cout << "Podaci o automobilu: " << "\n\n"
 		<< "Naziv: " << this->naziv << "\n"
 		<< "Boja: " << this->boja << "\n"
 		<< "Broj vrata: " << this->brVrata << "\n\n"
 		<< "Motor: " << "\n"
-		<< "naziv: " << this->motor->naziv
-		<< "\nkubikaza: " << this->motor->kubikaza << " cc"
-		<< "\n\nGume:\n"
+		<< "naziv: " << this->motor->naziv << "\n"
+		<< "kubikaza: " << this->motor->kubikaza << " cc" << "\n\n"
+		<< "Gume: " << "\n"
 		<< this->gume[0]->id << ": " << this->gume[0]->tip << "\n"
 		<< this->gume[1]->id << ": " << this->gume[1]->tip << "\n"
 		<< this->gume[2]->id << ": " << this->gume[2]->tip << "\n"
