@@ -27,13 +27,21 @@ int main() {
 			case 1:
 				cin.ignore();
 				AutoSalon.push_back(noviAuto());
+				cout << endl;
 				break;
 			case 2:
 				cin.ignore();
-				for (int i = 0; i < AutoSalon.size(); i++) {
-					AutoSalon[i]->ispis();
-					AutoSalon[i]->ispisFile(ispis);
+				if (AutoSalon.size() == 0) {
+					cout << "Nema automobila u salonu!" << endl;
+					break;
 				}
+				else {
+					for (int i = 0; i < AutoSalon.size(); i++) {
+						AutoSalon[i]->ispis();
+						AutoSalon[i]->ispisFile(ispis);
+					}
+				}
+				cout << endl;
 				break;
 			case 3:
 				cout << "Dovidjenja!" << endl;
