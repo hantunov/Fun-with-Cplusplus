@@ -1,11 +1,11 @@
 Napraviti klasu Automobil sa sljedećim obveznim elementima:
 
-•	motor (Motor*)  - private  
-•	niz guma vector<Guma*>  - private    
-•	dodati nekoliko drugih jednostavnih atributa po vlastitom izboru – min. 2 – primjerice, naziv, boja, broj vrata i sl.  
-•	void ugradiMotor(Motor* m) i Motor* izvadiMotor() – metode pomoću kojih u Auto ugrađujete motor i vadite motor iz auta  
-•	void staviGume(vector<Guma*> gume) i vector<Guma*> skiniGume()  
-•	void ispis() – ispisati podatke o automobilu, motoru i gumama  
+* motor (Motor*)  - private  
+* niz guma vector<Guma*>  - private    
+* dodati nekoliko drugih jednostavnih atributa po vlastitom izboru – min. 2 – primjerice, naziv, boja, broj vrata i sl.  
+* void ugradiMotor(Motor* m) i Motor* izvadiMotor() – metode pomoću kojih u Auto ugrađujete motor i vadite motor iz auta  
+* void staviGume(vector<Guma*> gume) i vector<Guma*> skiniGume()  
+* void ispis() – ispisati podatke o automobilu, motoru i gumama  
 
 Klasa Motor ima javne atribute naziv i kubikaža. Klasa guma ima javne atribute id (različit za svaku gumu) gume i tip (ljetne/zimske).
 U main programu napraviti sljedeće:
