@@ -1,5 +1,5 @@
 * Napišite program koji u dinamički alocirano polje učitava N kompleksnih brojeva
-* Kompleksni broj treba predstaviti klasom Kompleksni koja sarži realni i imaginarni dio (cijeli brojevi)
+* Kompleksni broj treba predstaviti klasom Kompleksni koja sadrži realni i imaginarni dio (cijeli brojevi)
 (Z = re + im*i). Članske varijable moraju biti enkapsulirane.
 * Default konstruktor mora članske varijable postaviti na nulu
 * Napraviti funkciju Modul koja računa modul kompleksnog broja koji je udaljenost kompleksnog broja od ishodišta
