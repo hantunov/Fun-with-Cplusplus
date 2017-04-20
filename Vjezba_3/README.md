@@ -1,5 +1,3 @@
-Zadatak 3:
-
 * Napišite program koji u dinamički alocirano polje učitava N kompleksnih brojeva
 * Kompleksni broj treba predstaviti klasom Kompleksni koja sarži realni i imaginarni dio (cijeli brojevi)
 (Z = re + im*i). Članske varijable moraju biti enkapsulirane.
